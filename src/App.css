@@ -1,0 +1,91 @@
+body {
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: sticky;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #A6DFBF;
+  margin-top: 150px;
+}
+
+.footer p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1.0rem;
+  margin: 0 0.10rem;
+  transition: all 0.3s linear;
+}
+
+.edit-btn {
+  color: lightgreen;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 40vh;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 1rem;
+}
+
+.section-center {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
